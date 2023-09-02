@@ -1,0 +1,13 @@
+.flyby {
+    left:-100px;
+    animation: flybyAnimation 5s linear;
+}
+
+@keyframes flybyAnimation{
+    0%{
+        left:-100px;
+    }
+    100%{
+        left:100%;
+    }
+}
