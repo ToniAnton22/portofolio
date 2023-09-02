@@ -6,4 +6,5 @@ interface RequestObject {
 
 function sendRequest(request: RequestObject){
     console.log(request)
+    console.log(request)
 }
